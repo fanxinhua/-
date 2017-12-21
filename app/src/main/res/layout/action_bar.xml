@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:background="#46a3ff"
+     android:layout_height="60dp">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@mipmap/ic_launcher"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:id="@+id/bar_imgleft"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="推荐"
+        android:textColor="#fff"
+        android:layout_centerInParent="true"
+        android:id="@+id/bar_title"
+        />
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@mipmap/raw_1500034665"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/bar_imgright"
+        />
+
+
+
+</RelativeLayout>
